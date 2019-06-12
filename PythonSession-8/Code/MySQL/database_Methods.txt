@@ -1,0 +1,16 @@
+
+##############To Execute Query ##################
+
+cursor.execute(sqlquery) ---> Single Query
+
+cursor.executescript(sqlqueries) ---> String of Query seprate by ;
+
+cursor.executemany() ---> parameterized Query
+
+###################### Fetch Result ##################
+
+cursor.fetchone() ----> fetch one row
+
+cursor.fetchall() ----> fetch all row
+
+cursor.fetchmany() ----> fetch number of row
