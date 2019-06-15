@@ -2,7 +2,7 @@
 from tkinter import *
 root = Tk()
 root.geometry("744x133")
-root.title("My GUI With Harry")
+root.title("Welcome to GUI")
 
 # Important Label Options
 # text - adds the text
